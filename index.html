@@ -14,7 +14,7 @@
 <body>
 
   <!-- navbar -->
-   <nav class="navbar navbar-expand-md fixed-bottom navbar-light">
+   <nav class="navbar navbar-expand-md fixed-top navbar-light">
     <div class="container-xxl">
       <a href="#intro" class="navbar-brand">
         <span class="fw-bold text-secondary">
@@ -55,7 +55,7 @@
   <section id="intro">
       <div class="container-lg">
         <div class="row justify-content-center align-items-center">
-          <div class="co-md-5 text-center text-md-start">
+          <div class="col-md-5 text-center text-md-start">
             <h1>
               <div class="display-2">Black-Belt</div>
               <div class="display-5 text-muted">Your Coding Skills</div>
@@ -107,7 +107,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-lq-4 col-xl-3">
+      <div class="col-8 col-lg-4 col-xl-3">
         <div class="card border-0">
           <div class="card-body text-center py-4">
             <h4 class="card-title">Ultimate Edition</h4>
@@ -140,67 +140,68 @@
         </div>
 
         <div class="col-lg-6">
-        <!-- accordian -->
-        <div class="accordian" id="chapters">
-          <div class="accordian-item">
-            <h2 class="accordian-header" id="heading-1">
-              <button class="accordian-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1"></button>
+        <!-- accordion -->
+        <div class="accordion" id="chapters">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
                 Chapter 1 - Your First Web Page
+              </button>
             </h2>
-            <div id="chapter-1" class="accordian-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
-              <div class="accordian-body">
+            <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+              <div class="accordion-body">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis dolor quaerat laudantium nihil, rem ipsam nisi beatae repellat aperiam dicta, doloremque ab tempore veritatis fugit soluta aliquid animi eligendi. Veniam!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quasi? Voluptate ex qui laudantium soluta provident quod eius eveniet, nobis eum, placeat maxime blanditiis aliquam voluptatibus itaque accusantium! Fuga, totam?</p>
               </div>
             </div>
           </div>
-          <div class="accordian-item">
-            <h2 class="accordian-header" id="heading-2">
-              <button class="accordian-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
                 Chapter 2 - Mastering CSS
               </button>
             </h2>
-            <div id="chapter-2" class="accordian-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
-              <div class="accordian-body">
+            <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+              <div class="accordion-body">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laborum perferendis quas soluta. Atque, rerum excepturi fugit eos vero rem nobis dolore laboriosam unde explicabo et, ad ut, a debitis.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, deserunt consequatur non cumque accusamus quam, tenetur fuga eos minus nesciunt cupiditate. A magnam non nostrum facere maiores natus debitis reiciendis.</p>
               </div>
             </div>
           </div>
-          <div class="accordian-item">
-            <h2 class="accordian-header" id="heading-3">
-              <button class="accordian-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
                 Chapter 3 The Power of JavaScript
               </button>
             </h2>
-            <div id="chapter-3" class="accordian-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
-              <div class="accordian-body">
+            <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+              <div class="accordion-body">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolore nemo delectus, ducimus sit illo quas, deleniti voluptas voluptate cumque quos! Voluptas deleniti quasi qui doloribus dignissimos sequi accusantium quos.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat architecto tempore voluptatum eum maxime accusamus hic minus a unde non aperiam quos eaque odio beatae, explicabo quia sapiente laudantium doloremque.</p>
               </div>
             </div>
           </div>
-          <div class="accordian-item">
-            <h2 class="accordian-header" id="heading-4">
-              <button class="accordian-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
                 Chapter 4 - Storing Data (Firebase Databases)
               </button>
             </h2>
-            <div id="chapter-4" class="accordian-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
-              <div class="accordian-body">
+            <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+              <div class="accordion-body">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laborum perferendis quas soluta. Atque, rerum excepturi fugit eos vero rem nobis dolore laboriosam unde explicabo et, ad ut, a debitis.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, deserunt consequatur non cumque accusamus quam, tenetur fuga eos minus nesciunt cupiditate. A magnam non nostrum facere maiores natus debitis reiciendis.</p>
               </div>
             </div>
           </div>
-          <div class="accordian-item">
-            <h2 class="accordian-header" id="heading-5">
-              <button class="accordian-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
                 Chapter 2 - User Authentication
               </button>
             </h2>
-            <div id="chapter-5" class="accordian-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
-              <div class="accordian-body">
+            <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+              <div class="accordion-body">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laborum perferendis quas soluta. Atque, rerum excepturi fugit eos vero rem nobis dolore laboriosam unde explicabo et, ad ut, a debitis.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, deserunt consequatur non cumque accusamus quam, tenetur fuga eos minus nesciunt cupiditate. A magnam non nostrum facere maiores natus debitis reiciendis.</p>
               </div>
@@ -285,7 +286,7 @@
               <span class="mb-4 input-group-text">
                 <i class="bi bi-person-fill"></i>
               </span>
-              <input type="email" class="form control" id="email" placeholder="e.g mario@example.com">
+              <input type="email" class="form-control" id="email" placeholder="e.g mario@example.com">
             </div>
 
             <label for="subject" class="form-label">What is your question about?</label>
